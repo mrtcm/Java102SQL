@@ -11,4 +11,4 @@ SELECT COUNT(DISTINCT title) FROM film where title like 'T%' and rating = 'G' ;
 SELECT COUNT(DISTINCT country) FROM country where country like '_____';
 
 --city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
-SELECT COUNT(city) FROM city where city Ilike 'r%'; 
+SELECT COUNT(city) FROM city where city Ilike '%r'; 

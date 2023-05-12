@@ -2,7 +2,7 @@
 select avg(rental_rate) from film ;
 
 --film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
-select count(title) from film
+select count(*) from film
 where title like 'C%';
 
 --film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
